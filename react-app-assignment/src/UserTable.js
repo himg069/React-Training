@@ -3,7 +3,7 @@ import users from "./users";
 const UserTable = () => {
   return users.map((myData) => {
     return (
-      <tr >
+      <tr className='table-success'>
         <th  >{myData.id}</th>
         <th  >{myData.name}</th>
         <th  >{myData.email}</th>

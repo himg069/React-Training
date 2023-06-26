@@ -4,8 +4,8 @@ import UserList from "./UserList";
 
 function App() {
   return (
-    <div className='container'>
-      <h1>User Table</h1>
+    <div className='container mt-5'>
+      <h1 className='text-primary'>User Table</h1>
       <hr />
       <table className='table' >
         <thead>
